@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 
+import 'constants.dart';
+
+
+
 class iconInfo extends StatelessWidget {
-  iconInfo({this.icon, this.text});
+  iconInfo({this.icon, this.label});
   final IconData icon;
-  final String text;
+  final String label;
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -18,12 +22,9 @@ class iconInfo extends StatelessWidget {
           height: 15.0,
         ),
         Text(
-          text,
+          label,
           textAlign: TextAlign.center,
-          style: TextStyle(
-            fontSize: 18.0,
-            color: Color(0xff8D8E98),
-          ),
+          style: kLabelTextStyle,
         ),
       ],
     );
