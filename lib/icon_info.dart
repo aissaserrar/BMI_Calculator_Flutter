@@ -4,8 +4,8 @@ import 'constants.dart';
 
 
 
-class iconInfo extends StatelessWidget {
-  iconInfo({this.icon, this.label});
+class IconInfo extends StatelessWidget {
+  IconInfo({this.icon, this.label});
   final IconData icon;
   final String label;
   @override

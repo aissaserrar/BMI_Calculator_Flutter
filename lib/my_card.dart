@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class myCard extends StatelessWidget {
-  myCard({@required this.color, this.cardChild, this.onPress});
+class MyCard extends StatelessWidget {
+  MyCard({@required this.color, this.cardChild, this.onPress});
   final Color color;
   final Widget cardChild;
   final Function onPress;

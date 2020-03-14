@@ -15,9 +15,8 @@ class BMICalc extends StatelessWidget {
             thumbColor: kAccentColor,
             overlayColor: kAccentColor.withAlpha(20),
             activeTrackColor: Colors.white,
-            thumbShape: RoundSliderThumbShape(enabledThumbRadius: 15) ,
-            overlayShape: RoundSliderOverlayShape(overlayRadius: 30)
-        ),
+            thumbShape: RoundSliderThumbShape(enabledThumbRadius: 15),
+            overlayShape: RoundSliderOverlayShape(overlayRadius: 30)),
         scaffoldBackgroundColor: kBackgroundColor,
         primaryColor: kPrimaryColor,
         accentColor: kAccentColor,
@@ -25,7 +24,8 @@ class BMICalc extends StatelessWidget {
           body1: TextStyle(color: Colors.white, fontSize: 20),
         ),
       ),
-      home: InputPage(),
+      initialRoute: '/',
+      home: InputPage() ,
     );
   }
 }
